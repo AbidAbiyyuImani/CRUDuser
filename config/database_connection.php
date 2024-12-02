@@ -1,10 +1,10 @@
-<?php 
+<?php
 // phpinfo();
-$dbhost = "localhost";
-$dbuser = "postgres";
+$dbhost = "aws-0-ap-southeast-1.pooler.supabase.com";
+$dbuser = "postgres.ghecpnpqcgyjnvstwuih";
 $dbpass = "root";
-$dbport = 3794;
-$dbname = "crud_postgre";
+$dbport = 6543;
+$dbname = "postgres";
 
 try {
     $db = new PDO("pgsql:host=$dbhost;port=$dbport;dbname=$dbname;", $dbuser, $dbpass);
